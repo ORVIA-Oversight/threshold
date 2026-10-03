@@ -1,0 +1,27 @@
+.legal-hero{background:linear-gradient(120deg,#fff 0%,#f4faf9 56%,#fff4df 100%);padding:78px 0 70px;border-bottom:1px solid var(--line)}
+.legal-hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:54px;align-items:center}
+.legal-hero h1{font-size:clamp(50px,6vw,78px);line-height:.96;letter-spacing:-.055em;color:var(--navy);margin:0 0 22px}
+.legal-hero h1 span{color:var(--orange)}
+.legal-dashboard-card{background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:24px}
+.legal-dashboard-head,.legal-topline{display:flex;justify-content:space-between;gap:20px;align-items:center}
+.legal-dashboard-head strong{display:block;font-size:22px;color:var(--navy)}
+.legal-kicker,.legal-topline small{font-size:10px;letter-spacing:.13em;font-weight:950;color:#6a7b90}
+.legal-status{display:inline-flex;padding:7px 10px;border-radius:999px;background:#eaf7f6;color:#0a6871;font-size:11px;font-weight:950;letter-spacing:.08em}
+.legal-progress{height:7px;background:#e8eef3;border-radius:99px;overflow:hidden;margin:21px 0}.legal-progress span{display:block;height:100%;background:linear-gradient(90deg,var(--teal),#0b7f8c)}
+.legal-milestones{display:grid;gap:10px}.legal-milestones>div{display:flex;align-items:center;gap:12px;padding:11px;border:1px solid #e8edf2;border-radius:9px}
+.legal-milestones>div>span{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#eef2f6;color:#64758a;font-weight:900}
+.legal-milestones .done>span{background:#eaf7f6;color:#0d8b82}.legal-milestones .active{border-color:#efc978;background:#fffaf0}.legal-milestones .active>span{background:var(--gold);color:#fff}
+.legal-milestones b{display:block;color:var(--navy);font-size:13px}.legal-milestones small{color:var(--muted)}
+.legal-next{margin-top:16px;padding:15px;border-left:4px solid var(--teal);background:#f3faf9;border-radius:7px}.legal-next p{margin:4px 0 0;color:var(--muted)}
+.legal-flow{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.legal-flow>div{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;min-height:170px}
+.legal-flow span{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;font-weight:950;margin-bottom:18px}
+.legal-flow b{display:block;color:var(--navy);font-size:18px}.legal-flow p{color:var(--muted);font-size:14px}
+.legal-portal{display:grid;grid-template-columns:210px 1fr;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.22);color:var(--ink)}
+.legal-rail{background:#071a38;color:#cfe0ef;padding:22px;display:flex;flex-direction:column;gap:7px}.legal-rail strong{color:#fff;font-size:12px;letter-spacing:.12em;margin-bottom:16px}.legal-rail a{padding:10px 11px;border-radius:7px;font-size:13px;font-weight:850}.legal-rail a.active{background:#113b6a;color:#fff}
+.legal-portal-main{padding:26px}.legal-topline h3{margin:3px 0 0;color:var(--navy);font-size:26px}
+.legal-metric-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0}.legal-metric-grid>div{border:1px solid var(--line);border-radius:9px;padding:14px;background:#f9fbfc}
+.legal-metric-grid small{display:block;font-size:9px;letter-spacing:.1em;color:#738195;font-weight:900}.legal-metric-grid strong{display:block;color:var(--navy);margin-top:6px;font-size:14px}
+.legal-update-card{padding:18px;border-radius:9px;background:#eef8f7;border-left:4px solid #0d8b82}.legal-update-card b{color:var(--navy)}.legal-update-card p{margin:7px 0;color:#355b60}.legal-update-card small{color:#6c7e82}
+.legal-two{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}.legal-panel{border:1px solid var(--line);border-radius:9px;padding:16px}.legal-panel h4{margin:0 0 10px;color:var(--navy)}.legal-panel p{margin:6px 0;color:var(--muted);font-size:13px}
+@media(max-width:1000px){.legal-hero-grid{grid-template-columns:1fr}.legal-flow{grid-template-columns:1fr 1fr}.legal-portal{grid-template-columns:1fr}.legal-rail{display:none}.legal-metric-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.legal-flow,.legal-metric-grid,.legal-two{grid-template-columns:1fr}.legal-hero{padding:58px 0}.legal-hero h1{font-size:46px}.legal-portal-main{padding:18px}}
